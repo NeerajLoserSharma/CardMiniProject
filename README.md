@@ -1,7 +1,7 @@
 
 # CSS Card Mini Project
 
-This mini project is actually just a [responsive webpage](https://en.wikipedia.org/wiki/Responsive_web_design) which displays info regarding the staff of a hypothertical tech giant MNC.
+This mini project is actually just a [responsive webpage](https://en.wikipedia.org/wiki/Responsive_web_design) which displays info regarding the staff of a hypothetical tech giant MNC.
 
 I build this mini project on my own by getting inspired while watching an awesome [CSS tutorial](https://www.youtube.com/watch?v=n4R2E7O-Ngo).
 
