@@ -1,0 +1,313 @@
+/* CSS reset begins */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+/* CSS reset ends */
+
+html {
+    scroll-behavior: smooth;
+    font: 1.5rem sans-serif, georgia;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgba(129, 99, 160, 0.68);
+    background-image: radial-gradient(white, rgba(73, 70, 116, 0.792));
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+h1 {
+    padding: 0.2rem;
+}
+
+header, footer {
+    position: sticky;
+    background-color: rgb(40, 40, 74);
+    color: white;
+}
+
+header {
+    top: 0;
+}
+
+nav {
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-bottom: 2.5px solid black;
+}
+
+ul {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #000;
+    font-weight: 600;
+}
+
+a:hover, a:focus {
+    color: gray;
+}
+
+main {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    bottom: 0;
+    height: 32px;
+}
+
+div {
+    background-color: rgba(210, 223, 228, 0.897);
+    border: 2px solid #000;
+    border-radius: 5%;
+
+    scroll-margin-top: 5.25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption, figure {
+    padding: 0.5rem;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    font-family: arial;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0rem;
+}
+
+img {
+    width: 450px;
+    height: auto;
+    min-width: 130px;
+    border: 5px double #333;
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+
+/* SMALL */
+
+
+@media screen and (max-width: 768px) {
+    div {
+        margin: 0.5rem;
+    }
+
+    img {
+        width: 370px;
+    }
+
+    #arthur {
+        order: 1;
+    }
+
+    figcaption {
+        padding-top: 0.9rem;
+    }
+
+    li:last-child {
+        order: -1;
+    }
+}
+
+
+/* EXTRA SMALL */
+
+
+@media screen and (max-width: 576px) {
+    img {
+        width: 320px;
+    }
+
+    #mark {
+        order: -1;
+    }
+
+    #samantha {
+        order: 1;
+    }
+
+    li:last-child {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    div {
+        width: 90%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+/* MEDIUM */
+
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    div {
+        margin: 0.5rem;
+    }
+
+    img {
+        width: 285px;
+    }
+
+    #arthur {
+        order: 1;
+    }
+
+    figcaption {
+        margin-top: 0.7rem;
+        margin-bottom: 0.8rem;
+        padding-top: 0.25rem;
+        order: -1;
+    }
+}
+
+
+/* LARGE */
+
+
+@media screen and (min-width: 992px) {
+    div {
+        width: 400px;
+        height: 525px;
+    }
+
+    img {
+        width: 360px;
+    }
+    
+    #arthur {
+        order: -1;
+    }
+}
+
+
+/* EXTRA LARGE */
+
+
+@media screen and (min-width: 1200px) {
+    main {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    div {
+        width: 30.75%;
+        height: auto;
+        margin-inline: 0rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+/* DOUBLE EXTRA LARGE */
+
+
+@media screen and (min-width: 1600px) {
+    main {
+        justify-content: center;
+    }
+
+    div {
+        width: 500px;
+        margin-inline: 0.5rem;
+    }
+}
+
+
+/* MOBILE DEVICE LANDSCAPE MODE */
+
+
+@media screen and (max-height:420px) and (min-aspect-ratio: 7/4) {
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+
+    main {
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    div {
+        width: 30%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    figcaption {
+        font-size: 1rem;
+    }
+
+    div p {
+        font-size: 0.8rem;
+        margin-top: 0.3rem;
+    }
+}
