@@ -70,6 +70,10 @@ a:hover, a:focus {
     color: gray;
 }
 
+a:active {
+    color: rebeccapurple;
+}
+
 main {
     flex-grow: 1;
 
