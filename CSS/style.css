@@ -92,6 +92,7 @@ div {
     background-color: rgba(210, 223, 228, 0.897);
     border: 2px solid #000;
     border-radius: 5%;
+    box-shadow: 1.8px 3px 5.25px 5.5px rgba(14, 14, 14, 0.842);
 
     scroll-margin-top: 5.25rem;
 
@@ -314,4 +315,18 @@ p {
         font-size: 0.8rem;
         margin-top: 0.3rem;
     }
+}
+
+
+/* SUPER SMALL PHONES LIKE JIOPHONE */
+
+
+@media screen and (max-width: 240px) {
+    header, nav { 
+        font-size: 0.8rem;
+    }
+    
+    nav {
+        padding: 0.2rem;
+    } 
 }
