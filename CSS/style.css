@@ -328,5 +328,17 @@ p {
     
     nav {
         padding: 0.2rem;
-    } 
+    }
+    
+    div {
+        scroll-margin-top: 4rem;
+    }
+
+    footer{
+        height: 22px;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
 }
