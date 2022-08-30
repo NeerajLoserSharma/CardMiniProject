@@ -1,4 +1,4 @@
-/* CSS reset begins */
+/* || CSS reset begins */
 
 * {
     margin: 0;
@@ -10,7 +10,9 @@ img {
     display: block;
 }
 
-/* CSS reset ends */
+/* || CSS reset ends */
+
+/* || General styles */
 
 html {
     scroll-behavior: smooth;
@@ -135,7 +137,7 @@ p {
 }
 
 
-/* SMALL */
+/* || SMALL */
 
 
 @media screen and (max-width: 768px) {
@@ -161,7 +163,7 @@ p {
 }
 
 
-/* EXTRA SMALL */
+/* || EXTRA SMALL */
 
 
 @media screen and (max-width: 576px) {
@@ -193,7 +195,7 @@ p {
 }
 
 
-/* MEDIUM */
+/* || MEDIUM */
 
 
 @media screen and (min-width: 768px) {
@@ -222,7 +224,7 @@ p {
 }
 
 
-/* LARGE */
+/* || LARGE */
 
 
 @media screen and (min-width: 992px) {
@@ -241,7 +243,7 @@ p {
 }
 
 
-/* EXTRA LARGE */
+/* || EXTRA LARGE */
 
 
 @media screen and (min-width: 1200px) {
@@ -262,7 +264,7 @@ p {
 }
 
 
-/* DOUBLE EXTRA LARGE */
+/* || DOUBLE EXTRA LARGE */
 
 
 @media screen and (min-width: 1600px) {
@@ -277,7 +279,7 @@ p {
 }
 
 
-/* MOBILE DEVICE LANDSCAPE MODE */
+/* || MOBILE DEVICE LANDSCAPE MODE */
 
 
 @media screen and (max-height:420px) and (min-aspect-ratio: 7/4) {
@@ -318,7 +320,7 @@ p {
 }
 
 
-/* SUPER SMALL PHONES LIKE JIOPHONE */
+/* || SUPER SMALL PHONES LIKE JIOPHONE */
 
 
 @media screen and (max-width: 240px) {
