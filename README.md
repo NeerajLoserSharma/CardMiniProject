@@ -22,4 +22,4 @@ I build this mini project on my own by getting inspired while watching an awesom
 All your suggestions and feedbacks are always welcomed! Feel free to contact for feedbacks and suggestions at mamailforgithub@gmail.com.
 
 
-Have a nice rest of your day :)
+Have a nice rest of your day ☺️☺️.
