@@ -86,7 +86,7 @@ main {
 }
 
 footer {
-    bottom: 0;
+    bottom: 0 !important;
     height: 32px;
 }
 
