@@ -1,4 +1,4 @@
-/* CSS reset begins */
+/* || CSS reset begins */
 
 * {
     margin: 0;
@@ -10,7 +10,9 @@ img {
     display: block;
 }
 
-/* CSS reset ends */
+/* || CSS reset ends */
+
+/* || General styles */
 
 html {
     scroll-behavior: smooth;
@@ -84,7 +86,7 @@ main {
 }
 
 footer {
-    bottom: 0;
+    bottom: 0 !important;
     height: 32px;
 }
 
@@ -92,6 +94,7 @@ div {
     background-color: rgba(210, 223, 228, 0.897);
     border: 2px solid #000;
     border-radius: 5%;
+    box-shadow: 1.8px 3px 5.25px 5.5px rgba(14, 14, 14, 0.842);
 
     scroll-margin-top: 5.25rem;
 
@@ -134,7 +137,7 @@ p {
 }
 
 
-/* SMALL */
+/* || SMALL */
 
 
 @media screen and (max-width: 768px) {
@@ -160,7 +163,7 @@ p {
 }
 
 
-/* EXTRA SMALL */
+/* || EXTRA SMALL */
 
 
 @media screen and (max-width: 576px) {
@@ -192,7 +195,7 @@ p {
 }
 
 
-/* MEDIUM */
+/* || MEDIUM */
 
 
 @media screen and (min-width: 768px) {
@@ -221,7 +224,7 @@ p {
 }
 
 
-/* LARGE */
+/* || LARGE */
 
 
 @media screen and (min-width: 992px) {
@@ -240,7 +243,7 @@ p {
 }
 
 
-/* EXTRA LARGE */
+/* || EXTRA LARGE */
 
 
 @media screen and (min-width: 1200px) {
@@ -261,7 +264,7 @@ p {
 }
 
 
-/* DOUBLE EXTRA LARGE */
+/* || DOUBLE EXTRA LARGE */
 
 
 @media screen and (min-width: 1600px) {
@@ -276,7 +279,7 @@ p {
 }
 
 
-/* MOBILE DEVICE LANDSCAPE MODE */
+/* || MOBILE DEVICE LANDSCAPE MODE */
 
 
 @media screen and (max-height:420px) and (min-aspect-ratio: 7/4) {
@@ -313,5 +316,19 @@ p {
     div p {
         font-size: 0.8rem;
         margin-top: 0.3rem;
+    }
+}
+
+
+/* || SUPER SMALL PHONES LIKE JIOPHONE */
+
+
+@media screen and (max-width: 240px) {
+    header, nav { 
+        font-size: 0.8rem;
+    }
+    
+    nav {
+        padding: 0.2rem;
     }
 }
