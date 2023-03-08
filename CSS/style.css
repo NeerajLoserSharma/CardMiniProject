@@ -20,14 +20,16 @@ html {
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: rgba(129, 99, 160, 0.68);
     background-image: radial-gradient(white, rgba(73, 70, 116, 0.792));
     display: flex;
     flex-direction: column;
 }
 
-header, nav, footer {
+header,
+nav,
+footer {
     display: grid;
     place-content: center;
     grid-template-columns: 100%;
@@ -38,7 +40,8 @@ h1 {
     padding: 0.2rem;
 }
 
-header, footer {
+header,
+footer {
     position: sticky;
     background-color: rgb(40, 40, 74);
     color: white;
@@ -68,7 +71,8 @@ a {
     font-weight: 600;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: gray;
 }
 
@@ -104,7 +108,8 @@ div {
     align-items: center;
 }
 
-figcaption, figure {
+figcaption,
+figure {
     padding: 0.5rem;
 }
 
@@ -236,7 +241,7 @@ p {
     img {
         width: 360px;
     }
-    
+
     #arthur {
         order: -1;
     }
@@ -324,10 +329,12 @@ p {
 
 
 @media screen and (max-width: 240px) {
-    header, nav { 
+
+    header,
+    nav {
         font-size: 0.8rem;
     }
-    
+
     nav {
         padding: 0.2rem;
     }
