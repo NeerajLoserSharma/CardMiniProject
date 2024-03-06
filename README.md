@@ -3,7 +3,7 @@
 ### [Live Site](https://neerajlosersharma.github.io/CardMiniProject/)
 
 &nbsp;
-![Screenshot of the Profile Cards project website](https://www.linkpicture.com/q/Screenshot-2023-02-10-at-20-42-03-Profile-Cards.png)
+![Screenshot of the Profile Cards project website](https://i.imgur.com/BCGNeUo.png)
 
 This mini project is actually just a [responsive webpage](https://en.wikipedia.org/wiki/Responsive_web_design) which displays info regarding the staff of a hypothetical tech giant MNC.
 
